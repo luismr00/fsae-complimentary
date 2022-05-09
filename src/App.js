@@ -7,7 +7,7 @@ import LineChart from './components/LineChart';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Add your graphs below.
@@ -21,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <p>Graphs goes here!</p>
+      <p>Graphs goes here!</p> */}
       <Chart />
       <Pie />
       <LineChart />
